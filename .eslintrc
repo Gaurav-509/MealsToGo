@@ -2,7 +2,10 @@
   "extends": "@react-native",
   "rules": {
     "quotes": [2, "double", { "avoidEscape": true }],
-    "react/jsx-filename-extension": [0],
-    "camelcase": "off"
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".cjs", ".jsx"] }
+    ],
+    "indent": [2, "tab"]
   }
 }
